@@ -21,6 +21,8 @@
 		25B76A40187E14A0002A971C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B76A22187E149F002A971C /* UIKit.framework */; };
 		25B76A48187E14A0002A971C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25B76A46187E14A0002A971C /* InfoPlist.strings */; };
 		25B76A4A187E14A0002A971C /* MultiplyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B76A49187E14A0002A971C /* MultiplyTests.m */; };
+		25B76A58187E1730002A971C /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B76A57187E1730002A971C /* CheckMate.framework */; };
+		25B76A59187E1730002A971C /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B76A57187E1730002A971C /* CheckMate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,7 @@
 		25B76A45187E14A0002A971C /* MultiplyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiplyTests-Info.plist"; sourceTree = "<group>"; };
 		25B76A47187E14A0002A971C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		25B76A49187E14A0002A971C /* MultiplyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiplyTests.m; sourceTree = "<group>"; };
+		25B76A57187E1730002A971C /* CheckMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CheckMate.framework; path = ../../Downloads/CheckMate.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25B76A58187E1730002A971C /* CheckMate.framework in Frameworks */,
 				25B76A21187E149F002A971C /* CoreGraphics.framework in Frameworks */,
 				25B76A23187E149F002A971C /* UIKit.framework in Frameworks */,
 				25B76A1F187E149F002A971C /* Foundation.framework in Frameworks */,
@@ -70,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25B76A59187E1730002A971C /* CheckMate.framework in Frameworks */,
 				25B76A3E187E14A0002A971C /* XCTest.framework in Frameworks */,
 				25B76A40187E14A0002A971C /* UIKit.framework in Frameworks */,
 				25B76A3F187E14A0002A971C /* Foundation.framework in Frameworks */,
@@ -101,6 +106,7 @@
 		25B76A1D187E149F002A971C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				25B76A57187E1730002A971C /* CheckMate.framework */,
 				25B76A1E187E149F002A971C /* Foundation.framework */,
 				25B76A20187E149F002A971C /* CoreGraphics.framework */,
 				25B76A22187E149F002A971C /* UIKit.framework */,
@@ -378,6 +384,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/anthonyseverino/Downloads,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Multiply/Multiply-Prefix.pch";
 				INFOPLIST_FILE = "Multiply/Multiply-Info.plist";
@@ -391,6 +401,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/anthonyseverino/Downloads,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Multiply/Multiply-Prefix.pch";
 				INFOPLIST_FILE = "Multiply/Multiply-Info.plist";
@@ -408,6 +422,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					/Users/anthonyseverino/Downloads,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Multiply/Multiply-Prefix.pch";
@@ -431,6 +446,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					/Users/anthonyseverino/Downloads,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Multiply/Multiply-Prefix.pch";
